@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Coll from '@/components/collapseDemo/Coll'
 import index from '@/components/activeDemo/index'
-import forms from '@/components/formDemo/forms'
+import vModelDemo from '@/components/v-model-demo/index'
 import charts from '@/components/chartsDemo/charts-demo'
 
 
@@ -31,9 +31,10 @@ export default new Router({
       component: index
     },
     {
-      path: '/forms',
-      name: 'forms',
-      component: forms
+      // 自定义组件使用v-model
+      path: '/v-model-demo',
+      name: 'vModelDemo',
+      component: vModelDemo
     },
     {
       path: '/charts',

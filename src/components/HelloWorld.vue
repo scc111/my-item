@@ -1,7 +1,7 @@
 <template>
- <div class="hello">
-     hello
-</div>
+ <h1 class="hello">
+   自己的小练习
+</h1>
 </template>
 
 <script>
