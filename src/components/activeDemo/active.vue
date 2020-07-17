@@ -30,7 +30,10 @@ export default {
       type: Array,
       default: function() {
         return []
-      }
+      },
+      // 节流 : 限定时间内只执行一次
+      // 防抖 : 触发事件之后,n秒内只执行一次,如果n秒内又触发了该函数,则会重新计算函数执行时间
+
     }
   },
   data() {

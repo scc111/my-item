@@ -33,7 +33,11 @@ export default {
       ]
     }
   },
-  methods: {}
+  methods: {
+    getObj(){
+      
+    }
+  }
 }
 </script>
 
